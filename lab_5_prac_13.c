@@ -24,7 +24,7 @@ int main()
         case 3:printf("%d * %d = %d\n", a, b, (a*b));
                break;
         case 4:if( b != 0)
-                  printf("%d + %d = %d\n", a, b, (a/b));
+                  printf("%d / %d = %d\n", a, b, (a/b));
                else
                   printf("Number cant't be divided by 0\n");
                break;
